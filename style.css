@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(245, 247, 248);
+}
+header,
+.firstsection {
+  background-color: rgb(34, 68, 68);
+  display: flex;
+  color: aliceblue;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.logo {
+  background-color: blue;
+  width: 100px;
+  height: 50px;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(197, 106, 8);
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feture,
+.latestNews,
+.starCard,
+.ques,
+.videoSection,
+.latestImg,
+.footer {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.firstsection > div > h1 {
+  text-align: left;
+}
+.hed,
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.pic {
+  display: flex;
+  justify-content: space-around;
+}
+.mainCard,
+.star,
+.ask,
+.video {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 300px;
+  height: 350px;
+  border: 2px solid gray;
+}
+.card > img {
+  margin-left: 0.7rem;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.card > p,
+h3 {
+  color: rgb(0, 0, 0);
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card > a {
+  background-color: orange;
+  margin-left: 1rem;
+}
+.insideCard {
+  text-align: center;
+  padding: 0.5rem;
+  line-height: 1.5;
+  margin: 2px;
+  border: 2px solid rgb(78, 77, 77);
+}
+.insideCard > span {
+  font-size: 20px;
+}
+.styl {
+  color: orange;
+}
+
+.ask > div > img {
+  width: 450px;
+}
+
+.roww {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.roww > div > p {
+  border: 2px solid gray;
+  padding: 1rem;
+}
+
+.video {
+  justify-content: space-around;
+}
+.latestImg > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 2px solid gray;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+}
